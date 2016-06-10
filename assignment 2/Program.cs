@@ -10,6 +10,8 @@ namespace assignment_2
     {
         static void Main(string[] args)
         {
+            SuperHero theflash = new SuperHero();
+            theflash.showpowers();
         }
     }
 }
