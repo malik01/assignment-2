@@ -10,8 +10,10 @@ namespace assignment_2
     {
         static void Main(string[] args)
         {
-            SuperHero theflash = new SuperHero();
+            SuperHero theflash = new SuperHero("The Arrow");
+            theflash.Show();
             theflash.showpowers();
+            theflash.Fight();
         }
     }
 }

@@ -32,6 +32,9 @@ namespace assignment_2
         {
             _generatepowers();
         }
-        
+        public SuperHero(string name) : base(name)
+        {
+            this.Name = name;
+        }
     }
 }
