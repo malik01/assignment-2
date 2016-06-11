@@ -3,7 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/**
+ * author Shahzaib Malik
+ * student id 300852792 
+ * Date created 6/10/2016
+ * Date modified 6/10/2016
+ * version 1.0..1 finished things starting comments
+ */
 
 namespace assignment_2
 {
