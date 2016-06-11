@@ -74,7 +74,10 @@ namespace assignment_2
             {
                 Console.WriteLine("\n {0} Landed a hit with a damage of {1}", Name, _hitDamage() + "\n");
             }
-
+            else
+            {
+                Console.WriteLine("\n {0} Missed" , Name);
+            }
         }
         /**
          * <summary>
