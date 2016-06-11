@@ -25,7 +25,7 @@ namespace assignment_2
         }
         
 
-        private void _generatepowers()
+        private void _generateRandomPowers()
         {
             int[] dummyPower = new int[] { 0,1,2,3,4,5,6,7,8,9,10,11 };
             string[] superPower = new string[] { "Super Strenght", "Super Speed", "Body Armor", "Flight", "Fire Genration", "Weather Control" };
@@ -42,7 +42,7 @@ namespace assignment_2
         }
             public void showpowers()
         {
-            _generatepowers();
+            _generateRandomPowers();
         }
         public SuperHero(string name) : base(name)
         {
